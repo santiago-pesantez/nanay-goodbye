@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nanay - Nuestra Historia</title>
-    <meta name="description" content="Nanay fue una plataforma web que conectaba personas que necesitaban ayuda con voluntarios. Nacida en Ecuador durante el COVID-19, ayudamos a 135 familias en 7 países.">
+    <meta name="description" content="Nanay fue una plataforma web que conectaba personas que necesitaban ayuda con voluntarios. Nacida en Ecuador durante el COVID-19, ayudamos a 135 familias en 7 paises.">
     <meta property="og:title" content="Nanay - Nuestra Historia">
     <meta property="og:description" content="Nanay fue una plataforma web que conectaba personas que necesitaban ayuda con voluntarios. Nacida en Ecuador durante el COVID-19.">
-    <meta property="og:image" content="https://nanaystorage.blob.core.windows.net/website/Resources/social-11.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,25 +21,28 @@
             <button class="navbar__toggle" aria-label="Menu" onclick="document.querySelector('.navbar__links').classList.toggle('active')">&#9776;</button>
             <ul class="navbar__links">
                 <li><a href="#mision">Misi&oacute;n</a></li>
-                <li><a href="#significado">Significado</a></li>
                 <li><a href="#impacto">Impacto</a></li>
                 <li><a href="#historia">Historia</a></li>
                 <li><a href="#aliados">Aliados</a></li>
                 <li><a href="#faq">Preguntas</a></li>
+                <li><a href="en.html" class="lang-switch">English</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero -->
     <header class="hero" id="mision">
-        <div class="container">
+        <div class="container hero__container">
             <div class="hero__content">
                 <div class="hero__label">Nuestra Misi&oacute;n</div>
                 <h1 class="hero__headline">Crear iniciativas y soluciones a trav&eacute;s de la colaboraci&oacute;n ciudadana.</h1>
                 <p class="hero__subtitle">
                     Nanay fue una plataforma web que conect&oacute; a personas que necesitaban ayuda con voluntarios dispuestos a ayudar. Un puente de solidaridad nacido en Ecuador durante la pandemia del COVID-19.
                 </p>
-                <span class="hero__badge">Abril 2020 &mdash; Diciembre 2022</span>
+                <span class="hero__badge">Abril 2020 - Diciembre 2022</span>
+            </div>
+            <div class="hero__image">
+                <img src="img/banner.svg" alt="Nanay banner">
             </div>
         </div>
     </header>
@@ -53,7 +57,7 @@
                     <p>Como la madre que busca calmar el dolor, nuestro equipo tuvo por objetivo dar voz a grupos sociales que se encontraban afectados por el contexto de la pandemia.</p>
                 </div>
                 <div class="col">
-                    <img src="https://nanaystorage.blob.core.windows.net/website/Resources/hero_meaning.jpeg" alt="El significado de Nanay" loading="lazy">
+                    <img src="img/sections/community.jpg" alt="Comunidad unida" loading="lazy">
                 </div>
             </div>
         </div>
@@ -69,7 +73,7 @@
                     <p>Nacimos como un aporte a la comunidad, para crear un ambiente m&aacute;s solidario, inclusivo y sostenible.</p>
                 </div>
                 <div class="col">
-                    <img src="https://nanaystorage.blob.core.windows.net/website/Resources/hero_motor.jpeg" alt="Nuestro motor" loading="lazy">
+                    <img src="img/sections/family.jpg" alt="Familia y comunidad" loading="lazy">
                 </div>
             </div>
         </div>
@@ -85,7 +89,7 @@
                     <p>Tuvimos solicitudes en Bolivia, Ecuador, Chile, Colombia, Guatemala, M&eacute;xico y Panam&aacute;.</p>
                 </div>
                 <div class="col">
-                    <img src="https://nanaystorage.blob.core.windows.net/website/Resources/hero_presence.webp" alt="Presencia global de Nanay" loading="lazy">
+                    <img src="img/sections/mountains.jpeg" alt="Alcance global" loading="lazy">
                 </div>
             </div>
         </div>
@@ -116,14 +120,14 @@
 
             <div class="card-grid animate-on-scroll">
                 <div class="card">
-                    <img class="card__img" src="https://nanaystorage.blob.core.windows.net/website/Resources/hero_helped_families.jpeg" alt="135 Familias Ayudadas" loading="lazy">
+                    <img class="card__img" src="img/sections/delivery.jpg" alt="135 Familias Ayudadas" loading="lazy">
                     <div class="card__body">
                         <h4 class="card__title">135 Familias Ayudadas</h4>
                         <p class="card__text">Desde abril 2020 Nanay conect&oacute; personas para compartir ideas, ofrecer y recibir apoyo en momentos dif&iacute;ciles.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card__img" src="https://nanaystorage.blob.core.windows.net/website/Resources/hero_heart.jpeg" alt="#25FamiliasNanay" loading="lazy">
+                    <img class="card__img" src="img/sections/garden.jpeg" alt="#25FamiliasNanay" loading="lazy">
                     <div class="card__body">
                         <h4 class="card__title">#25FamiliasNanay</h4>
                         <p class="card__text">
@@ -134,7 +138,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card__img" src="https://nanaystorage.blob.core.windows.net/website/Resources/hero_allies_action.jpeg" alt="Aliados en Acci&oacute;n" loading="lazy">
+                    <img class="card__img" src="img/sections/support.jpg" alt="Aliados en Acci&oacute;n" loading="lazy">
                     <div class="card__body">
                         <h4 class="card__title">Aliados en Acci&oacute;n</h4>
                         <p class="card__text">
@@ -228,13 +232,13 @@
     <section class="section section--light" id="aliados">
         <div class="container">
             <div class="text-center mb-4 animate-on-scroll">
-                <h2 class="section__heading">Conoce m&aacute;s sobre nuestros aliados</h2>
+                <h2 class="section__heading">Nuestros aliados</h2>
                 <p>Nanay uni&oacute; fuerzas con personas comprometidas con su comunidad para seguir apoyando a las personas que m&aacute;s lo necesitaban.</p>
             </div>
 
             <div class="allies-grid animate-on-scroll">
                 <div class="ally-card">
-                    <img class="ally-card__img" src="https://nanaystorage.blob.core.windows.net/website/Allies/yogaTeacher.jpeg" alt="YOGUIBEARD" loading="lazy">
+                    <div class="ally-card__img" style="background-image: url('img/allies/yogaTeacher.jpeg')"></div>
                     <div class="ally-card__body">
                         <h4 class="ally-card__name">Yoguibeard</h4>
                         <p class="ally-card__desc">Ecuatoriano, comunicador organizacional e instructor certificado en Yoga y Biomec&aacute;nica.</p>
@@ -246,7 +250,7 @@
                 </div>
 
                 <div class="ally-card">
-                    <img class="ally-card__img" src="https://nanaystorage.blob.core.windows.net/website/Allies/caro_baez.jpg" alt="Caro B&aacute;ez" loading="lazy">
+                    <div class="ally-card__img ally-card__initials" data-initials="CB"></div>
                     <div class="ally-card__body">
                         <h4 class="ally-card__name">Caro B&aacute;ez</h4>
                         <p class="ally-card__desc">Emprendedora, gestora de proyectos y amante del servicio social. Sirvi&oacute; a su ciudad en el a&ntilde;o 2014-2015 en su rol como Reina de Quito.</p>
@@ -255,7 +259,7 @@
                 </div>
 
                 <div class="ally-card">
-                    <img class="ally-card__img" src="https://nanaystorage.blob.core.windows.net/website/Allies/isabellaGomezGiron.jpeg" alt="Isabella Gomez Giron" loading="lazy">
+                    <div class="ally-card__img ally-card__initials" data-initials="IG"></div>
                     <div class="ally-card__body">
                         <h4 class="ally-card__name">Isabella Gomez Giron</h4>
                         <p class="ally-card__desc">Actriz y productora Colombiana. Egresada del programa de Drama de la Universidad de Nueva York, amante del arte, la cultura y los proyectos comunitarios.</p>
@@ -264,7 +268,7 @@
                 </div>
 
                 <div class="ally-card">
-                    <img class="ally-card__img" src="https://nanaystorage.blob.core.windows.net/website/Allies/idonea.jpeg" alt="Id&oacute;nea" loading="lazy">
+                    <div class="ally-card__img ally-card__initials" data-initials="ID"></div>
                     <div class="ally-card__body">
                         <h4 class="ally-card__name">Id&oacute;nea</h4>
                         <p class="ally-card__desc">Realiza un trabajo voluntario para rescatar de mercados de Quito alimentos en condiciones id&oacute;neas y darles un destino digno.</p>
@@ -276,7 +280,7 @@
                 </div>
 
                 <div class="ally-card">
-                    <img class="ally-card__img" src="https://nanaystorage.blob.core.windows.net/website/Allies/AnaCarrera.jpeg" alt="Ana Bel&eacute;n Carrera" loading="lazy">
+                    <div class="ally-card__img ally-card__initials" data-initials="AC"></div>
                     <div class="ally-card__body">
                         <h4 class="ally-card__name">Ana Bel&eacute;n Carrera</h4>
                         <p class="ally-card__desc">Cantante y artista ecuatoriana.</p>
@@ -285,7 +289,7 @@
                 </div>
 
                 <div class="ally-card">
-                    <img class="ally-card__img" src="https://nanaystorage.blob.core.windows.net/website/Allies/MariaFernandaMoreno.jpeg" alt="Maria Fernanda D&iacute;az" loading="lazy">
+                    <div class="ally-card__img ally-card__initials" data-initials="MF"></div>
                     <div class="ally-card__body">
                         <h4 class="ally-card__name">Maria Fernanda D&iacute;az</h4>
                         <p class="ally-card__desc">Adem&aacute;s de haber estudiado gastronom&iacute;a, le apasiona viajar, aprender idiomas y ayudar a los dem&aacute;s.</p>
@@ -294,7 +298,7 @@
                 </div>
 
                 <div class="ally-card">
-                    <img class="ally-card__img" src="https://nanaystorage.blob.core.windows.net/website/Allies/marioGalarza.jpeg" alt="Mario Galarza" loading="lazy">
+                    <div class="ally-card__img ally-card__initials" data-initials="MG"></div>
                     <div class="ally-card__body">
                         <h4 class="ally-card__name">Mario Galarza</h4>
                         <p class="ally-card__desc">Fundador de Ecuadorian Mystery Box, un emprendimiento que busca compartir una pizca de Ecuador con el mundo a trav&eacute;s de cajas &ldquo;misteriosas&rdquo;.</p>
@@ -376,7 +380,7 @@
                 Creemos que el emprendimiento y la oportunidad de tener un trabajo digno es vital para crear un cambio duradero en la sociedad y para mejorar la calidad de vida de las personas.
             </p>
             <p class="farewell__text">
-                Nuestro compromiso con ayudar y mejorar la calidad de vida de nuestros usuarios sigui&oacute; tan fuerte como desde el primer d&iacute;a de la pandemia. Les agradecemos mucho su confianza &mdash; estamos seguros de que el camino recorrido dej&oacute; una huella positiva en la vida de muchas personas de nuestra comunidad.
+                Nuestro compromiso con ayudar y mejorar la calidad de vida de nuestros usuarios sigui&oacute; tan fuerte como desde el primer d&iacute;a de la pandemia. Les agradecemos mucho su confianza. Estamos seguros de que el camino recorrido dej&oacute; una huella positiva en la vida de muchas personas de nuestra comunidad.
             </p>
             <div class="farewell__signature">
                 Con cari&ntilde;o, el equipo de Nanay
@@ -393,21 +397,17 @@
     </footer>
 
     <script>
-        // FAQ Accordion
         function toggleFaq(button) {
             var item = button.parentElement;
             var wasActive = item.classList.contains('active');
-            // Close all
             document.querySelectorAll('.faq-item').forEach(function(el) {
                 el.classList.remove('active');
             });
-            // Toggle clicked
             if (!wasActive) {
                 item.classList.add('active');
             }
         }
 
-        // Scroll animations
         var observer = new IntersectionObserver(function(entries) {
             entries.forEach(function(entry) {
                 if (entry.isIntersecting) {

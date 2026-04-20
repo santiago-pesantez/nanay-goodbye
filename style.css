@@ -164,11 +164,28 @@ img {
     overflow: hidden;
 }
 
+.hero__container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .hero__content {
     max-width: 600px;
     padding: 60px 20px;
     position: relative;
     z-index: 2;
+    flex: 1;
+}
+
+.hero__image {
+    flex: 0 0 auto;
+    max-width: 400px;
+}
+
+.hero__image img {
+    width: 100%;
+    height: auto;
 }
 
 .hero__label {
@@ -218,11 +235,18 @@ img {
         padding-top: 64px;
         padding-bottom: 40px;
     }
+    .hero__container {
+        flex-direction: column;
+    }
     .hero__headline {
         font-size: 34px;
     }
     .hero__content {
         padding: 40px 20px;
+    }
+    .hero__image {
+        max-width: 260px;
+        margin: 0 auto;
     }
 }
 
@@ -408,8 +432,25 @@ img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-color: #e8f0fe;
     margin: 20px auto 0;
+}
+
+.ally-card__initials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1e69cd, #638efb);
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.ally-card__initials::after {
+    content: attr(data-initials);
 }
 
 .ally-card__body {
@@ -683,4 +724,19 @@ img {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* ===== Language Switch ===== */
+.lang-switch {
+    background: #1e69cd;
+    color: #fff !important;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 12px !important;
+    letter-spacing: 0.05em !important;
+}
+
+.lang-switch:hover {
+    background: #155ab6;
+    text-decoration: none !important;
 }

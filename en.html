@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanay - Our Story</title>
+    <meta name="description" content="Nanay was a web platform that connected people in need with volunteers. Born in Ecuador during COVID-19, we helped 135+ families across 7 countries.">
+    <meta property="og:title" content="Nanay - Our Story">
+    <meta property="og:description" content="Nanay was a web platform that connected people in need with volunteers. Born in Ecuador during COVID-19.">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar__brand">nanay</a>
+            <button class="navbar__toggle" aria-label="Menu" onclick="document.querySelector('.navbar__links').classList.toggle('active')">&#9776;</button>
+            <ul class="navbar__links">
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#story">Story</a></li>
+                <li><a href="#allies">Allies</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="index.html" class="lang-switch">Espa&ntilde;ol</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="mission">
+        <div class="container hero__container">
+            <div class="hero__content">
+                <div class="hero__label">Our Mission</div>
+                <h1 class="hero__headline">Creating initiatives and solutions through citizen collaboration.</h1>
+                <p class="hero__subtitle">
+                    Nanay was a web platform that connected people in need with volunteers willing to help. A bridge of solidarity born in Ecuador during the COVID-19 pandemic.
+                </p>
+                <span class="hero__badge">April 2020 - December 2022</span>
+            </div>
+            <div class="hero__image">
+                <img src="img/banner.svg" alt="Nanay banner">
+            </div>
+        </div>
+    </header>
+
+    <!-- Meaning -->
+    <section class="section section--light">
+        <div class="container">
+            <div class="row animate-on-scroll">
+                <div class="col">
+                    <h3 class="section__subheading">Meaning</h3>
+                    <h2 class="section__heading">Nanay means pain in Quichua and mother in Filipino</h2>
+                    <p>Like a mother seeking to soothe pain, our team aimed to give voice to social groups affected by the pandemic.</p>
+                </div>
+                <div class="col">
+                    <img src="img/sections/community.jpg" alt="United community" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Motor -->
+    <section class="section section--white">
+        <div class="container">
+            <div class="row row--reverse animate-on-scroll">
+                <div class="col">
+                    <h3 class="section__subheading">Our Drive</h3>
+                    <h2 class="section__heading">Your well-being drives us</h2>
+                    <p>We were born as a contribution to the community, to create a more supportive, inclusive, and sustainable environment.</p>
+                </div>
+                <div class="col">
+                    <img src="img/sections/family.jpg" alt="Family and community" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Presence -->
+    <section class="section section--light">
+        <div class="container">
+            <div class="row animate-on-scroll">
+                <div class="col">
+                    <h3 class="section__subheading">Presence in 7 countries</h3>
+                    <h2 class="section__heading">We offered and received help from anywhere in the world</h2>
+                    <p>We had requests in Bolivia, Ecuador, Chile, Colombia, Guatemala, Mexico, and Panama.</p>
+                </div>
+                <div class="col">
+                    <img src="img/sections/mountains.jpeg" alt="Global reach" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="section section--white" id="impact">
+        <div class="container">
+            <div class="text-center mb-4 animate-on-scroll">
+                <h3 class="section__subheading">Our Achievements</h3>
+                <h2 class="section__heading">We gave a voice to over 900 people in the community</h2>
+            </div>
+
+            <div class="stats-banner mb-4 animate-on-scroll">
+                <div class="stats-banner__item">
+                    <div class="stats-banner__number">135+</div>
+                    <div class="stats-banner__label">Families Helped</div>
+                </div>
+                <div class="stats-banner__item">
+                    <div class="stats-banner__number">900+</div>
+                    <div class="stats-banner__label">People Connected</div>
+                </div>
+                <div class="stats-banner__item">
+                    <div class="stats-banner__number">7</div>
+                    <div class="stats-banner__label">Countries</div>
+                </div>
+            </div>
+
+            <div class="card-grid animate-on-scroll">
+                <div class="card">
+                    <img class="card__img" src="img/sections/delivery.jpg" alt="135 Families Helped" loading="lazy">
+                    <div class="card__body">
+                        <h4 class="card__title">135 Families Helped</h4>
+                        <p class="card__text">Since April 2020, Nanay connected people to share ideas, offer, and receive support during difficult times.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="img/sections/garden.jpeg" alt="#25FamiliasNanay" loading="lazy">
+                    <div class="card__body">
+                        <h4 class="card__title">#25FamiliasNanay</h4>
+                        <p class="card__text">
+                            Thanks to our volunteers, we helped <strong>56 families in Ecuador</strong>.
+                            Each family received a kit worth <strong>$25 USD</strong> with food and hygiene supplies.
+                        </p>
+                        <span class="card__tag">November - December 2020</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="img/sections/support.jpg" alt="Allies in Action" loading="lazy">
+                    <div class="card__body">
+                        <h4 class="card__title">Allies in Action</h4>
+                        <p class="card__text">
+                            <strong>Idonea</strong> organized a lunch in December 2020 to help 5 Nanay families.
+                            <strong>Yoguibeard</strong> helped 3 Nanay families in October 2020.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="section section--light" id="story">
+        <div class="container">
+            <div class="text-center mb-4 animate-on-scroll">
+                <h3 class="section__subheading">Our Story</h3>
+                <h2 class="section__heading">The journey of Nanay</h2>
+            </div>
+
+            <div class="max-w-700 animate-on-scroll">
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <div class="timeline__date">April 2020</div>
+                        <div class="timeline__title">Nanay is born</div>
+                        <div class="timeline__desc">In the midst of the COVID-19 pandemic, Nanay is born in Ecuador as a web application to connect vulnerable people with volunteers who can offer help.</div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__date">2020</div>
+                        <div class="timeline__title">Growth and community</div>
+                        <div class="timeline__desc">The platform grows with help categories: food, hygiene supplies, provisions, and work. Over 900 people connect in the community.</div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__date">October - December 2020</div>
+                        <div class="timeline__title">#25FamiliasNanay</div>
+                        <div class="timeline__desc">With the support of volunteers and allies like Yoguibeard and Idonea, campaigns benefit 56 families in Ecuador with food and hygiene kits.</div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__date">2020 - 2022</div>
+                        <div class="timeline__title">Presence in 7 countries</div>
+                        <div class="timeline__desc">Nanay expands its reach to Bolivia, Chile, Colombia, Guatemala, Mexico, and Panama, with help requests from different parts of the world.</div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__date">2022</div>
+                        <div class="timeline__title">Model evolution</div>
+                        <div class="timeline__desc">As pandemic conditions changed, Nanay evolved its vision towards entrepreneurship and dignified work opportunities as a driver of lasting change in society.</div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__date">December 12, 2022</div>
+                        <div class="timeline__title">Closing of new requests</div>
+                        <div class="timeline__desc">New help requests were closed, while maintaining existing ones with the hope that new volunteers could continue offering support.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Nanay Did -->
+    <section class="section section--white">
+        <div class="container">
+            <div class="text-center mb-4 animate-on-scroll">
+                <h3 class="section__subheading">How it worked</h3>
+                <h2 class="section__heading">Nanay served as a bridge of connection</h2>
+                <p class="max-w-700" style="margin: 0 auto;">Nanay did not offer or deliver help directly. It served as a bridge connecting people who needed help with people who could help.</p>
+            </div>
+
+            <div class="card-grid animate-on-scroll">
+                <div class="card">
+                    <div class="card__body">
+                        <h4 class="card__title">Offer or request help</h4>
+                        <p class="card__text">Nanay was born during the COVID-19 pandemic to connect vulnerable people with volunteers who could offer help.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__body">
+                        <h4 class="card__title">Free technology solutions</h4>
+                        <p class="card__text">Through technology, we helped the most vulnerable people get ahead, at no cost to users.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__body">
+                        <h4 class="card__title">Community</h4>
+                        <p class="card__text">We created a web platform so that a bridge between needs and help was possible, connecting communities in 7 countries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Allies -->
+    <section class="section section--light" id="allies">
+        <div class="container">
+            <div class="text-center mb-4 animate-on-scroll">
+                <h2 class="section__heading">Our allies</h2>
+                <p>Nanay joined forces with people committed to their community to continue supporting those who needed it most.</p>
+            </div>
+
+            <div class="allies-grid animate-on-scroll">
+                <div class="ally-card">
+                    <div class="ally-card__img" style="background-image: url('img/allies/yogaTeacher.jpeg')"></div>
+                    <div class="ally-card__body">
+                        <h4 class="ally-card__name">Yoguibeard</h4>
+                        <p class="ally-card__desc">Ecuadorian, organizational communicator and certified instructor in Yoga and Biomechanics.</p>
+                    </div>
+                    <div class="ally-card__role">
+                        <strong>Outreach ally</strong>
+                        <br>Donates 50% of earnings to support people in need
+                    </div>
+                </div>
+
+                <div class="ally-card">
+                    <div class="ally-card__img ally-card__initials" data-initials="CB"></div>
+                    <div class="ally-card__body">
+                        <h4 class="ally-card__name">Caro Baez</h4>
+                        <p class="ally-card__desc">Entrepreneur, project manager, and social service advocate. She served her city in 2014-2015 as Queen of Quito.</p>
+                    </div>
+                    <div class="ally-card__role"><strong>Outreach ally</strong></div>
+                </div>
+
+                <div class="ally-card">
+                    <div class="ally-card__img ally-card__initials" data-initials="IG"></div>
+                    <div class="ally-card__body">
+                        <h4 class="ally-card__name">Isabella Gomez Giron</h4>
+                        <p class="ally-card__desc">Colombian actress and producer. Graduate of New York University's Drama program, passionate about art, culture, and community projects.</p>
+                    </div>
+                    <div class="ally-card__role"><strong>Outreach ally</strong></div>
+                </div>
+
+                <div class="ally-card">
+                    <div class="ally-card__img ally-card__initials" data-initials="ID"></div>
+                    <div class="ally-card__body">
+                        <h4 class="ally-card__name">Idonea</h4>
+                        <p class="ally-card__desc">A volunteer organization that rescues food in good condition from Quito markets and gives it a dignified destination.</p>
+                    </div>
+                    <div class="ally-card__role">
+                        <strong>Outreach ally</strong>
+                        <br>Helped 17 Nanay families
+                    </div>
+                </div>
+
+                <div class="ally-card">
+                    <div class="ally-card__img ally-card__initials" data-initials="AC"></div>
+                    <div class="ally-card__body">
+                        <h4 class="ally-card__name">Ana Belen Carrera</h4>
+                        <p class="ally-card__desc">Ecuadorian singer and artist.</p>
+                    </div>
+                    <div class="ally-card__role"><strong>Outreach ally</strong></div>
+                </div>
+
+                <div class="ally-card">
+                    <div class="ally-card__img ally-card__initials" data-initials="MF"></div>
+                    <div class="ally-card__body">
+                        <h4 class="ally-card__name">Maria Fernanda Diaz</h4>
+                        <p class="ally-card__desc">Besides having studied gastronomy, she is passionate about traveling, learning languages, and helping others.</p>
+                    </div>
+                    <div class="ally-card__role"><strong>Outreach ally</strong></div>
+                </div>
+
+                <div class="ally-card">
+                    <div class="ally-card__img ally-card__initials" data-initials="MG"></div>
+                    <div class="ally-card__body">
+                        <h4 class="ally-card__name">Mario Galarza</h4>
+                        <p class="ally-card__desc">Founder of Ecuadorian Mystery Box, a venture that seeks to share a taste of Ecuador with the world through "mystery" boxes.</p>
+                    </div>
+                    <div class="ally-card__role"><strong>Outreach ally</strong></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--white" id="faq">
+        <div class="container">
+            <div class="animate-on-scroll">
+                <h3 class="section__subheading">Help Center</h3>
+                <h2 class="section__heading">Frequently Asked Questions</h2>
+                <p class="mb-4">What was Nanay and how did it work?</p>
+            </div>
+
+            <ul class="faq-list animate-on-scroll">
+                <li class="faq-item active">
+                    <button class="faq-item__question" onclick="toggleFaq(this)">What was Nanay?</button>
+                    <div class="faq-item__answer">
+                        <p>Nanay was a web platform born as a contribution to the community, to create a more supportive, inclusive, and sustainable environment.</p>
+                        <p style="margin-top:8px">Nanay did not offer or deliver help directly. It served as a bridge connecting people who needed help with people who could help.</p>
+                    </div>
+                </li>
+                <li class="faq-item">
+                    <button class="faq-item__question" onclick="toggleFaq(this)">How did registration work?</button>
+                    <div class="faq-item__answer">
+                        <ol>
+                            <li>Users went to nanay.app from their computer or mobile phone.</li>
+                            <li>They clicked the Register button.</li>
+                            <li>They filled out the form with their information.</li>
+                            <li>They confirmed their account through a link sent to their email.</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="faq-item">
+                    <button class="faq-item__question" onclick="toggleFaq(this)">How did someone request help?</button>
+                    <div class="faq-item__answer">
+                        <ol>
+                            <li>The user logged in with their email and password.</li>
+                            <li>They clicked the "Request Help" button.</li>
+                            <li>They filled out all the form data and selected "Publish."</li>
+                        </ol>
+                        <p style="margin-top:8px">It was recommended to include a phone number so volunteers could make direct contact.</p>
+                    </div>
+                </li>
+                <li class="faq-item">
+                    <button class="faq-item__question" onclick="toggleFaq(this)">How could someone help?</button>
+                    <div class="faq-item__answer">
+                        <ol>
+                            <li>By registering on nanay.app and filling out the form to "Offer Help."</li>
+                            <li>By reviewing other users' posts in their city and leaving comments.</li>
+                            <li>By contacting through social media for help requests seen there.</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="faq-item">
+                    <button class="faq-item__question" onclick="toggleFaq(this)">Where was Nanay available?</button>
+                    <div class="faq-item__answer">
+                        <p>Nanay was born in Ecuador but help requests could be made from anywhere in the world.</p>
+                        <p style="margin-top:8px">We had requests in Bolivia, Chile, Colombia, Ecuador, Guatemala, Mexico, and Panama.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Farewell -->
+    <section class="farewell">
+        <div class="container">
+            <h2 class="farewell__heading">Thank you for trusting Nanay</h2>
+            <p class="farewell__text">
+                Two years later, pandemic conditions changed and we needed to evolve, changing our service model to adapt to this new reality.
+            </p>
+            <p class="farewell__text">
+                We believe that entrepreneurship and the opportunity to have dignified work is vital to creating lasting change in society and improving people's quality of life.
+            </p>
+            <p class="farewell__text">
+                Our commitment to helping and improving our users' quality of life remained as strong as from the first day of the pandemic. We thank you for your trust. We are certain that the path traveled left a positive mark on the lives of many people in our community.
+            </p>
+            <div class="farewell__signature">
+                With love, the Nanay team
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__brand">nanay</div>
+            <p class="footer__copy">&copy; 2020 - 2022 Nanay. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleFaq(button) {
+            var item = button.parentElement;
+            var wasActive = item.classList.contains('active');
+            document.querySelectorAll('.faq-item').forEach(function(el) {
+                el.classList.remove('active');
+            });
+            if (!wasActive) {
+                item.classList.add('active');
+            }
+        }
+
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+</html>
